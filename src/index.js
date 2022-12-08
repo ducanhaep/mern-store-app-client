@@ -21,7 +21,7 @@ const queryClient = new QueryClient({
     },
   },
 });
-axios.defaults.baseURL = "/api";
+axios.defaults.baseURL = "https://mern-store-app.onrender.com/api";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
